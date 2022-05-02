@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Password Generator Demo</title>
+        <link rel="stylesheet" href="../reset.css">
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+    <body>
+        <heading class="heading">
+            <h1 class="heading__title">Generate a <span class="heading__title--emphasis">random password</span></h1>
+            <p class="heading__tagline">Never use an insecure password again.</p>
+            <button class="heading__btn" onclick="displayPassword()">Generate Password</button>
+          </heading>
+          <hr class="pagebreak">
+          <main class="passwords">
+            <ul class="passwords__list">
+              <li class="passwords__list-item"><code id="password-el1" class="passwords__text">...</code></li>
+              <li class="passwords__list-item"><code id="password-el2" class="passwords__text">...</code></li>
+              <li class="passwords__list-item"><code id="password-el3" class="passwords__text">...</code></li>
+              <li class="passwords__list-item"><code id="password-el4" class="passwords__text">...</code></li>
+            </ul>
+          </main>
+    </body>
+
+</html>
