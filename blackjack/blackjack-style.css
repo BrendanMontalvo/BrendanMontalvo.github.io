@@ -1,6 +1,6 @@
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
-    background-color: radial-gradient(180deg, #233329, #63D471);
+    background: radial-gradient(circle at 100%, #233329, #233329 50%, #63D471 75%, #233329 75%);
     background-size: cover;
     font-weight: bold;
     color: white;
