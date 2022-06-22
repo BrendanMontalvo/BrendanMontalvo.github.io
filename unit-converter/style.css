@@ -1,0 +1,24 @@
+
+.masthead {
+  text-align:center;
+  border:20px;
+  font-size:36px;
+  padding:20px;
+  background:linear-gradient(246.26deg, #585DEF 20%, #FE3796 100%);
+}
+.masthead__input {
+  border: 10px solid black;
+  background: white;
+  text-color: black;
+}
+.masthead__button {
+  border: 10px solid purple;
+  border-bottom: 10px dashed grey;
+  font-size: 30px;
+}
+.unitConversions, body {
+  text-align:center;
+  background:pink;
+  padding:80px;
+  font-size:36px;
+}

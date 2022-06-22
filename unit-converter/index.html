@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <title>Measurement Converter</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="../reset.css">
+    </head>
+    <body>
+        <div class="masthead">
+            <p class="unitDisplay">Unit Conversion</p>
+            <input placeholder="0" class="masthead__input" type="number" id="numberConverter">
+            <button onclick="convert()" class="masthead__button">Convert</button>
+            </input>
+          </div>
+          <div class="unitConversions">
+            <p class="length">Length (Inches/Centimeters)</p>
+            <p><span id="el-inch1">0</span> inches = <span id="el-centimeter1">0.00</span> centimeters | <span id="el-centimeter2">0</span> centimeters = <span id="el-inch2">0.00</span> inches</p>
+            <p class="el-volume">Volume (Ounces/Liters)</p>
+            <p><span id="el-ounce1">0</span> ounces = <span id="el-liter1">0.00</span> liters | <span id="el-liter2">0</span> liters = <span id="el-ounce2">0.00</span> ounces</p>
+            <p class="el-distance">Distance (Miles/Kilometers)</p>
+            <p><span id="el-mile1">0</span> miles = <span id="el-kilometer1">0.00</span> kilometers | <span id="el-kilometer2">0</span> kilometers = <span id="el-mile2">0.00</span> miles</p> 
+          </div>          
+        <script src="script.js"></script>
+    </body>
+</html>
