@@ -1,14 +1,21 @@
+/* Colors */
+:root {
+    --white: #f0f0f0;
+    --goldenrod: #DAA520;
+    --green: #016f32;
+
+}
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
     background: radial-gradient(circle at 100%, #233329, #233329 50%, #63D471 75%, #233329 75%);
     background-size: cover;
     font-weight: bold;
-    color: white;
+    color: var(--white);
     text-align: center;
 }
 
 h1 {
-    color: goldenrod;
+    color: var(--goldenrod);
 }
 
 #message-el {
@@ -16,9 +23,9 @@ h1 {
 }
 
 button {
-    color: #016f32;
+    color: var(--green);
     width: 150px;
-    background: goldenrod;
+    background: var(--goldenrod);
     padding-top: 5px;
     padding-bottom: 5px;
     font-weight: bold;

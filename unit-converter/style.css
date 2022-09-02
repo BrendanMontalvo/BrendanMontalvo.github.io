@@ -1,4 +1,12 @@
+/* Colors */
+:root {
+  --black: #000;
+  --white: #fff;
+  --pink: #ffc0cb;
+  --grey: #808080;
+  --purple: #800800;
 
+}
 .masthead {
   text-align:center;
   border:20px;
@@ -7,18 +15,18 @@
   background:linear-gradient(246.26deg, #585DEF 20%, #FE3796 100%);
 }
 .masthead__input {
-  border: 10px solid black;
-  background: white;
-  text-color: black;
+  border: 10px solid var(--black);
+  background: var(--white);
+  text-color: var(--black);
 }
 .masthead__button {
-  border: 10px solid purple;
-  border-bottom: 10px dashed grey;
+  border: 10px solid var(purple);
+  border-bottom: 10px dashed var(--grey);
   font-size: 30px;
 }
 .unitConversions, body {
   text-align:center;
-  background:pink;
+  background:var(--pink);
   padding:80px;
   font-size:36px;
 }

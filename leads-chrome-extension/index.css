@@ -1,3 +1,8 @@
+:root {
+    --green: #5f9341;
+    --white: #f0f0f0;
+
+}
 body {
     margin: 0;
     padding: 10px;
@@ -9,21 +14,21 @@ input {
     width: 100%;
     padding: 10px;
     box-sizing: border-box;
-    border: 1px solid #5f9341;
+    border: 1px solid var(--green);
     margin-bottom: 4px;
 }
 
 button {
-    background: #5f9341;
-    color: white;
+    background: var(green);
+    color: var(--white);
     padding: 10px 20px;
-    border: 1px solid #5f9341;
+    border: 1px solid var(--green);
     font-weight: bold;
 }
 
 #delete-btn {
-    background: white;
-    color: #5f9341;
+    background: var(--white);
+    color: var(--green);
 }
 
 ul {
@@ -37,7 +42,7 @@ li {
 }
 
 a {
-    color: #5f9341;
+    color: var(--green);
 }
 
 
